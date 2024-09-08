@@ -1,8 +1,6 @@
 void LoadCommands()
 {
-	RegConsoleCmd("sm_sticker", Command_Stickers);
 	RegConsoleCmd("sm_stickers", Command_Stickers);
-	RegConsoleCmd("sm_st", Command_Stickers);
 }
 
 public Action Command_Stickers(int client, int args)
